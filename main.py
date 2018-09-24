@@ -1,10 +1,25 @@
 def make_sqaure(size):
-    pass
+    li = []
+    for i in range(0, size):
+        li.append('*')
+    s = "".join(li)
+    for i in range(0, size):
+        print(s)
 
 def make_rectangle(length, width):
     pass
 
 def make_triangle(size):
+    k = size - 1
+    for i in range(0, size): 
+        for j in range(0, k): 
+            print(end = ".") 
+        k = k - 1
+        for j in range(-2, (i * 2) - 1): 
+            print("*", end = "") 
+        for j in range(0, k + 1): 
+            print(end = ".") 
+        print("\r")
     pass
 
 def main():
