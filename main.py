@@ -7,6 +7,12 @@ def make_sqaure(size):
         print(s)
 
 def make_rectangle(length, width):
+    li = []
+    for i in range(width):
+        li.append('*')
+        s = "".join(li)
+    for i in range(0, length):
+        print(s)
     pass
 
 def make_triangle(size):
